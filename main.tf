@@ -96,3 +96,10 @@ resource "aws_security_group" "allow_all" {
   }
 
 }
+
+#ELEMENT&LIST&COUNT
+#LOOKUP&MAP
+#CONDITIONS
+
+#element(var.cidrs,count.index)
+#lookup(map,key,defalut)
